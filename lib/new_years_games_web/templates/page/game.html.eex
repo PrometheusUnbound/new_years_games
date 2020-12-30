@@ -1,0 +1,12 @@
+<script>
+  window.gameName = "<%= @name %>";
+</script>
+
+<div class="row">
+  <div class="column">
+    <h2>Colander: <%= @name %></h2>
+    <div id="root">
+      React app loading...
+    </div>
+  </div>
+</div>
